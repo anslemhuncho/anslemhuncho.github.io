@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,6 +36,18 @@
             max-width: 100%;
             height: auto;
         }
+        .app-download {
+            text-align: center;
+            margin-top: 2em;
+        }
+        .app-download a {
+            display: inline-block;
+            margin: 0 1em;
+        }
+        .app-download img {
+            width: 150px;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -46,12 +59,12 @@
         <section>
             <h2>How It Works</h2>
             <p>Our system utilizes cameras to capture images of vehicle number plates. These images are processed using OCR to extract the number plate information. Then, computer vision algorithms determine the location and timestamp of the vehicle.</p>
-            <img src="https://www.atriainnovation.com/wp-content/uploads/2022/02/Portada-1024x675.jpeg.webp">
+            <img src="https://www.atriainnovation.com/wp-content/uploads/2022/02/Portada-1024x675.jpeg.webp" alt="Camera Image">
         </section>
         <section>
             <h2>Real-time Notifications</h2>
             <p>Once the vehicle's information is processed, we send instant notifications to the respective owners. No matter where their vehicles are spotted, they'll receive timely updates about the location and time.</p>
-            <img src="https://b2633864.smushcdn.com/2633864/wp-content/uploads/2020/09/opencv_anpr_example.jpg?lossy=1&strip=1&webp=1">
+            <img src="https://b2633864.smushcdn.com/2633864/wp-content/uploads/2020/09/opencv_anpr_example.jpg?lossy=1&strip=1&webp=1" alt="Notification Image">
         </section>
         <section>
             <h2>Contact Us</h2>
@@ -60,6 +73,15 @@
     </main>
     <footer>
         <p>&copy; 2023  OCR and Computer Vision Embedded Project. All rights reserved.</p>
+        <div class="app-download">
+            <p class="badge-text">Download the App</p>
+            <a href="https://itunes.apple.com/us/app/smell-pittsburgh/id1149472827" target="_blank">
+                <img src="img/app-store-badge.png" alt="Download on the App Store">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=org.cmucreatelab.smell_pgh" target="_blank">
+                <img src="img/google-play-badge.png" alt="Get it on Google Play">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
